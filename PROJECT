@@ -1,7 +1,7 @@
-domain: my.domain
+domain: tutorial.kubebuilder.io
 repo: github.com/bingzhilanmo-bowen/k8s-crd-controller
 resources:
-- group: webapp
-  kind: Guestbook
+- group: batch
+  kind: CronJob
   version: v1
 version: "2"
